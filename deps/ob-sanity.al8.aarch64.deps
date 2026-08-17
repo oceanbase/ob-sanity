@@ -1,0 +1,14 @@
+[target-default]
+os=8
+arch=aarch64
+repo=https://ob-yum.oceanbase-dev.com/8/aarch64/test
+
+[deps]
+obdevtools-gcc9-9.3.0-152024092711.al8.aarch64.rpm cpp_standard=11
+obdevtools-llvm-11.0.1-662024092811.al8.aarch64.rpm cpp_standard=11
+obdevtools-gcc-12.3.0-32024122017.al8.aarch64.rpm cpp_standard=20
+obdevtools-llvm-17.0.6-72025060300.al8.aarch64.rpm cpp_standard=20 cxxabi=0
+obdevtools-llvm-abiv1-17.0.6-222026041516.al8.aarch64.rpm cpp_standard=20 cxxabi=1
+obdevtools-cmake-3.22.1-122024092710.al8.aarch64.rpm
+devdeps-gtest-1.8.0-242026020914.al8.aarch64.rpm cxxabi=1
+devdeps-gtest-1.8.0-192024092714.al8.aarch64.rpm cxxabi=0

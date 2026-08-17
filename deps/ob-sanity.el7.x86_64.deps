@@ -1,0 +1,14 @@
+[target-default]
+os=7
+arch=x86_64
+repo=http://yum-test.obvos.alibaba-inc.com/oceanbase/development-kit/el/7/x86_64/
+
+[deps]
+obdevtools-gcc9-9.3.0-52022092914.el7.x86_64.rpm cpp_standard=11
+obdevtools-gcc-12.3.0-32024122017.el7.x86_64.rpm cpp_standard=20
+obdevtools-llvm-11.0.1-312022092921.el7.x86_64.rpm cpp_standard=11
+obdevtools-llvm-17.0.6-72025060300.el7.x86_64.rpm cpp_standard=20 cxxabi=0
+obdevtools-llvm-abiv1-17.0.6-222026041516.el7.x86_64.rpm cpp_standard=20 cxxabi=1
+obdevtools-cmake-3.22.1-22022100417.el7.x86_64.rpm
+devdeps-gtest-abiv1-1.8.0-362026031217.el7.x86_64.rpm cxxabi=1
+devdeps-gtest-1.8.0-132022101316.el7.x86_64.rpm cxxabi=0
